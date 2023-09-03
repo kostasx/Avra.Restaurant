@@ -1,8 +1,12 @@
 const button = document.querySelector('.modal-button')
-button.addEventListener('click', toggleModal)
+if ( button ){
+  button.addEventListener('click', toggleModal);
+}
 
 const overlay = document.querySelector('.modal-overlay')
-overlay.addEventListener('click', toggleModal)
+if ( overlay ){
+  overlay.addEventListener('click', toggleModal);
+}
 
 
 function toggleModal() {
