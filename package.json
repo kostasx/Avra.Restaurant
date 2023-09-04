@@ -13,7 +13,7 @@
     "tailwindcss-responsive-embed": "^1.0.0"
   },
   "dependencies": {
-    "alpinejs": "^2.8.0",
+    "alpinejs": "^3.13.0",
     "autoprefixer": "^9.8.8",
     "gsap": "^3.6.0",
     "imagesloaded": "^4.1.4",
