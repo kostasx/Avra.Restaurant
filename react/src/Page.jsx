@@ -8,7 +8,7 @@ export default function Page({ element }){
   return (
     <>
       <Header config={Config} />
-      <Container>
+      <Container config={Config}>
         { element }
       </Container>
       <Footer config={Config} />

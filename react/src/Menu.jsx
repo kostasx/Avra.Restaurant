@@ -1,25 +1,90 @@
 function Menu() {
   return (
-    <section className="py-20">
-      <div className="flex flex-wrap md:flex-nowrap p-5">
-        <div className="flex items-center justify-center p-5 mx-auto w-full lg:w-1/2">
-          <img
-            alt="Menu Link Image"
-            className="object-fill"
-            src="assets/img/meniu.png"
-          />
-        </div>
-        <div className="flex flex-col p-5 items-center text-center justify-center w-full lg:w-1/2">
-          <h2 className="text-4xl tracking-widest uppercase pb-5" data-scroll>
-            Discover our menu
-          </h2>
-          <p className="text-2xl mb-12 p-5" data-scroll>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut
-            iaculis lectus. In lobortis tortor eget venenatis ultrices. Fusce
-            rhoncus tincidunt purus et egestas. Maecenas erat nisl, porta nec.
-          </p>
-        </div>
+    <section className="mt-20 text-center">
+      <div className="flex justify-center items-center">
+        <img src="assets/img/detourCapture.svg" />
       </div>
+
+      <ul>
+        <li className="pt-10 pb-6 text-5xl tracking-widest uppercase">
+          Drinks
+        </li>
+        <li className="pb-20 text-2xl">
+          <ul className="menu">
+            <li className="py-4 font-sans font-bold" data-img="img/1.jpg">
+              Dish #1 - 5
+            </li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+          </ul>
+        </li>
+        <li className="pt-10 pb-6 text-5xl tracking-widest uppercase">
+          Drinks
+        </li>
+        <li className="pb-20 text-2xl">
+          <ul>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+          </ul>
+        </li>
+        <li className="pt-10 pb-6 text-5xl tracking-widest uppercase">
+          Drinks
+        </li>
+        <li className="pb-20 text-2xl">
+          <ul>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+          </ul>
+        </li>
+        <li className="pt-10 pb-6 text-5xl tracking-widest uppercase">
+          Drinks
+        </li>
+        <li className="pb-20 text-2xl">
+          <ul>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+            <li className="py-4 font-sans font-bold">Dish #1 - 5</li>
+            <li>Component 1 . Component 2 . Component . Component 4</li>
+          </ul>
+        </li>
+      </ul>
     </section>
   );
 }

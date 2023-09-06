@@ -1,6 +1,12 @@
 ---
+# MENU
+drinks: DRINKS
+appetizers: APPETIZERS
+dishes: DISHES
 
 # CONFIGURATION
+name: Avra
+subtitle: Greek Cuisine & More
 logo: 
   light: assets/img/picnic-logo-white.svg
   dark: assets/img/picnic-logo-black.svg
