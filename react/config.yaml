@@ -1,0 +1,67 @@
+---
+
+# CONFIGURATION
+logo: 
+  light: assets/img/picnic-logo-white.svg
+  dark: assets/img/picnic-logo-black.svg
+
+# CONTACT
+contact:
+  address: 
+  - Egremni Rd,Lefkada 310 82, GR
+  telephones:
+  - +30 2645 033307
+  - +30 2645 XXXXXX
+  email:
+  - info@picnicbistro.ro
+
+# SOCIAL
+social:
+  instagram: URL:instagram
+  facebook: URL:facebook
+  soundcloud: URL:soundcloud
+
+# REVIEW
+review:
+  resengo: URL:resengo
+  yelp: URL:yelp
+  tripadvisor: URL:tripadvisor
+
+# SPECIAL PAGES:
+special_pages:
+- Privacy Policy
+- Cookies
+- GDPR
+
+# NAVIGATION
+navigation:
+- label: Menu
+  URL: menu
+- label: Reservations
+  URL: reservations
+- label: Contact
+  URL: contact
+
+# OPENING HOURS
+opening_hours:
+- day: Monday
+  hours: 11-23
+- day: Tuesday
+  hours: 11-23
+- day: Wednesday
+  hours: 11-18
+- day: Thursday
+  hours: 11-23
+- day: Friday
+  hours: 11-22
+
+# RESERVATIONS
+reservations:
+  telephones: 
+  - +40 742 742 642
+  emails:
+  - info@picnicbistro.ro
+  info: |
+    The terrace is structured on tables for 3/6 people
+    Reservations are made as soon as possible, one day or 3 days in advance, for groups larger than 6 people.
+    Reservations are kept for 20 min

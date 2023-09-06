@@ -1,0 +1,4 @@
+body {
+  font-family: 'Daikon';
+  src: local('Daikon'), url('../assets/fonts/Pepper-Type-Daikon-ExtraLight.woff2') format('woff2');
+}
