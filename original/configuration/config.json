@@ -1,0 +1,16 @@
+{
+    "navigation": [
+        {
+            "label": "MENU",
+            "URL": "meniu.html"
+        },
+        {
+            "label": "RESERVATIONS",
+            "URL": "rezervari.html"
+        },
+        {
+            "label": "CONTACT",
+            "URL": "contact.html"
+        }
+    ]
+}
