@@ -7,11 +7,11 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import App from './App.jsx'
-import Page from "./Page";
-import Menu from "./Menu";
-import Reservations from "./Reservations";
-import Contact from "./Contact";
+import App from '@/App.jsx'
+import Page from "@/Page";
+import Menu from "@/Menu";
+import Reservations from "@/Reservations";
+import Contact from "@/Contact";
 
 const router = createBrowserRouter([
   {
@@ -20,15 +20,15 @@ const router = createBrowserRouter([
   },
   {
     path: "/menu",
-    element: <Page element={<Menu />}/>,
+    element: <Page hero={false} element={<Menu />}/>,
   },
   {
     path: "/reservations",
-    element: <Page element={<Reservations />}/>,
+    element: <Page hero={false} element={<Reservations />}/>,
   },
   {
     path: "/contact",
-    element: <Page element={<Contact />}/>,
+    element: <Page hero={false} element={<Contact />}/>,
   }
 ]);
 

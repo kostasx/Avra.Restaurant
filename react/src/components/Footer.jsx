@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import config from "@config";
 
 /* eslint-disable-next-line */
 function GA() {
@@ -18,12 +19,12 @@ function GA() {
   );
 }
 
-export default function Footer({ config }) {
+export default function Footer() {
   const { contact, social, review, special_pages, navigation } = config;
   // console.log({ contact, social, review, special_pages, navigation });
 
   return (
-    <footer className="container mx-auto">
+    <footer className="container mx-auto mb-32">
       
       <div className="flex flex-wrap-reverse lg:flex-nowrap items-center justify-center lg:justify-between">
         {/* LOGO */}
@@ -120,7 +121,7 @@ export default function Footer({ config }) {
       </div>
 
       {/* CREATOR */}
-      <div className="flex justify-center items-center pt-20">
+      <div className="hidden flex justify-center items-center pt-20">
         <p className="text-sm">
           Template by <a href="https://blondelguillau.me">Guillaume Blondel</a>
         </p>

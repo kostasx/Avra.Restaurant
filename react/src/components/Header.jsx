@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import Hero from "./Hero";
+import Hero from "@components/Hero";
 import PropTypes from "prop-types";
+import config from "@config";
 
 function MobileMenuIcon({ isOpen }) {
   return (
@@ -25,18 +26,27 @@ function MobileMenuIcon({ isOpen }) {
   );
 }
 
-export default function Header({ config }) {
+MobileMenuIcon.propTypes = {
+  isOpen: PropTypes.bool
+}
+
+export default function Header({ hero = true }) {
+
   const [isOpen, setIsOpen] = useState(false);
+
+  const navClassName = `relative z-20 top-0 right-0 w-full inline-block px-10 pt-5 text-2xl bg-transparent bg-opacity-50 rounded-xl ${hero ? "text-white" : "text-black" }`;
+  const headerClassName = `relative flex w-full overflow-hidden ${hero ? "h-screen" : ""}`;
+
   return (
-    <header className="relative flex h-screen w-full overflow-hidden">
-      <nav className="relative z-20 top-0 right-0 w-full inline-block px-10 pt-5 text-2xl text-white bg-transparent bg-opacity-50 rounded-xl">
+    <header className={headerClassName}>
+      <nav className={navClassName}>
         <div className="flex justify-between items-center">
           <div>
             <a href="/">
               <img
-                alt="Picnic Bistro Logo"
+                alt=""
                 className="h-20 lg:h-32"
-                src="assets/img/picnic-logo-white.svg"
+                src={hero ? config.logo.light : config.logo.dark}
               />
             </a>
           </div>
@@ -103,7 +113,7 @@ export default function Header({ config }) {
       {/* <!-- Mobile Links --> */}
 
       {/* <!-- Hero  --> */}
-      <Hero />
+      { hero && <Hero /> }
       {/* <!-- Hero  --> */}
 
       {/* <!-- Video Background Element --> */}
@@ -117,4 +127,5 @@ export default function Header({ config }) {
 
 Header.propTypes = {
   config: PropTypes.object,
+  hero: PropTypes.bool
 };

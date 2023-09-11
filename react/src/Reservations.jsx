@@ -39,7 +39,7 @@ function Reservations() {
   return (
     <section className="py-20">
 
-      <div className="text-center">
+      <div className="text-center max-w-screen-md mx-auto mb-24">
         <h2 className="font-sans font-bold text-3xl pb-6 uppercase tracking-wide">
           Reservations:
         </h2>

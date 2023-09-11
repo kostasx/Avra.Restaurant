@@ -1,8 +1,7 @@
 import PropTypes from "prop-types";
+import config from "@config";
 
-function Contact({ config }) {
-
-  // console.log("Contact()", { config });
+function Contact() {
 
   return (
     <main>

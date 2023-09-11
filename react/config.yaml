@@ -8,8 +8,13 @@ dishes: DISHES
 name: Avra
 subtitle: Greek Cuisine & More
 logo: 
-  light: assets/img/picnic-logo-white.svg
-  dark: assets/img/picnic-logo-black.svg
+  light: assets/img/avra.white.png
+  dark: assets/img/avra.black.png
+  log_alt_text:
+    en: "Avra Greek Cuisine Coffee and Cocktails"
+    gr: "Αύρα Ελληνική Κουζίνα Καφές και Κοκτέιλς"
+hero:
+  bg_img: assets/img/hero_bg.jpg
 
 # CONTACT
 contact:
@@ -20,6 +25,10 @@ contact:
   - +30 2645 XXXXXX
   email:
   - info@picnicbistro.ro
+  map:
+    lat: 38.65496531962637
+    lon: 20.565286404346732
+    google_map_embed_url: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1316.4816244066549!2d20.565286!3d38.65484!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135db15907124da1%3A0xe58fdadd01991f7f!2sAvra%20greek%20cuisine%20%26%20more!5e1!3m2!1sen!2sgr!4v1694469985257!5m2!1sen!2sgr
 
 # SOCIAL
 social:
