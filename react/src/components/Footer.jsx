@@ -37,7 +37,7 @@ export default function Footer({ config }) {
 
         {/* SITE MENU */}
         <div className="flex justify-center h-64 w-full lg:w-1/4">
-          <ul>
+          <ul className="w-1/2">
             <li className="font-sans text-2xl font-bold tracking-wide pb-6">
               SITE MENU
             </li>
@@ -60,7 +60,7 @@ export default function Footer({ config }) {
 
         {/* FIND US */}
         <div className="flex justify-center h-64 w-full lg:w-1/4">
-          <ul className="-ml-20">
+          <ul className="DISABLED-ml-20 w-1/2">
             <li className="font-sans text-2xl font-bold tracking-wide pb-4">
               FIND US
             </li>
@@ -83,8 +83,8 @@ export default function Footer({ config }) {
         </div>
 
         {/* SOCIAL */}
-        <div className="flex justify-center h-64 w-full ml-10 lg:-ml-0 lg:w-1/4">
-          <ul>
+        <div className="flex justify-center h-64 w-full DISABLEDml-10 lg:-ml-0 lg:w-1/4">
+          <ul className="w-1/2">
             <li className="font-sans text-2xl font-bold tracking-wide pb-4">
               SOCIAL
             </li>
