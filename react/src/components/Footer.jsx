@@ -20,7 +20,7 @@ function GA() {
 
 export default function Footer({ config }) {
   const { contact, social, review, special_pages, navigation } = config;
-  console.log({ contact, social, review, special_pages, navigation });
+  // console.log({ contact, social, review, special_pages, navigation });
 
   return (
     <footer className="container mx-auto">

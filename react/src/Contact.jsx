@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 function Contact({ config }) {
 
-  console.log("Contact()", { config });
+  // console.log("Contact()", { config });
 
   return (
     <main>
